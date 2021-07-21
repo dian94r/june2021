@@ -1,0 +1,6 @@
+#surefire_0
+#Wed Jul 21 16:31:35 ICT 2021
+suiteXmlFile=apitests.xml-Denv\=prod
+basedir=C\:\\Users\\dian1\\eclipse-workspace\\qaautomation_june2021_
+user.dir=C\:\\Users\\dian1\\eclipse-workspace\\qaautomation_june2021_
+localRepository=C\:\\Users\\dian1\\.m2\\repository

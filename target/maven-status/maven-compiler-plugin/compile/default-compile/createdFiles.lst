@@ -1,0 +1,10 @@
+june2021\qaautomation\pages\CommonPage.class
+june2021\qaautomation\utils\TestUtility.class
+june2021\qaautomation\pages\ProfilePage.class
+june2021\qaautomation\utils\JavascriptSnippets.class
+june2021\qaautomation\pages\BasePage.class
+june2021\qaautomation\apis\APIEndpoints.class
+june2021\qaautomation\utils\DataUtility.class
+june2021\qaautomation\apis\JsonPaths.class
+june2021\qaautomation\utils\APIUtility.class
+june2021\qaautomation\pages\LoginPage.class

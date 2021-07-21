@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 249.139 sec <<< FAILURE!
+testConfigurationAPI(june2021.qaautomation.APITest)  Time elapsed: 2.055 sec  <<< FAILURE!
+java.lang.AssertionError: expected [USD] but found [INR]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at june2021.qaautomation.APITest.testConfigurationAPI(APITest.java:25)
+
+test2(june2021.qaautomation.AppTest)  Time elapsed: 75.203 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[normalize-space()='fullstackdemo'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-S41506V', ip: '192.168.100.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\dian1\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61995/devtoo..., se:cdpVersion: 91.0.4472.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 891a7e3fffee55b9589a7a3be52a17a3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at june2021.qaautomation.pages.BasePage.getText(BasePage.java:28)
+	at june2021.qaautomation.pages.ProfilePage.getProfileText(ProfilePage.java:22)
+	at june2021.qaautomation.AppTest.test2(AppTest.java:40)
+
