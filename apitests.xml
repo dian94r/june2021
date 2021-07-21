@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite thread-count="1" name="Suite" parallel="methods">
   <test thread-count="1" name="API Test" parallel="methods">
+=======
+<suite thread-count="1" name="API Suite" parallel="methods">
+  <test thread-count="1" name="API Test" parallel="methods">
+>>>>>>> 9f75899a2796ee451ec2126c65a339c06d3a4d94
     <classes>
       <class name="june2021.qaautomation.APITest"/>
     </classes>
